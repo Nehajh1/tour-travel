@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../Styles/SecondHeader.css";
 import registerIcon from "../Images/register.jpg";
 import loginIcon from "../Images/lock.jpg";
@@ -6,15 +7,23 @@ import loginIcon from "../Images/lock.jpg";
 const SecondHeader = () => {
   return (
     <nav className="secondHeader">
-      
+      {/* Left Menu */}
       <ul className="navLeft">
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Contact Us</li>
-        <li>Our Mission</li>
+        <li>
+          <NavLink to="/" end>Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About Us</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact Us</NavLink>
+        </li>
+        <li>
+          <NavLink to="/mission">Our Mission</NavLink>
+        </li>
       </ul>
 
-      
+      {/* Right Menu */}
       <div className="navRight">
         <div className="navAction">
           <img src={registerIcon} alt="Register" />

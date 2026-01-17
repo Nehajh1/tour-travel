@@ -1,0 +1,29 @@
+.aboutContainer {
+  padding: 40px 80px;
+  line-height: 1.7;
+}
+
+.aboutContainer h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.aboutLogo {
+  width: 180px;
+  margin: 20px 0;
+}
+
+.aboutContainer h2 {
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+.aboutContainer h3 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.aboutContainer p {
+  font-size: 18px;
+  margin-top: 12px;
+}

@@ -92,3 +92,7 @@
 .navAction:hover img {
   filter: brightness(0) saturate(100%) invert(88%) sepia(22%) saturate(638%) hue-rotate(32deg);
 }
+.navLeft a {
+  text-decoration: none;
+  color: inherit;
+}
