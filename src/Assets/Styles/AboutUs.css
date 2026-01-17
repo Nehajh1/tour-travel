@@ -6,11 +6,13 @@
 .aboutContainer h1 {
   font-size: 36px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .aboutLogo {
   width: 180px;
-  margin: 20px 0;
+  display: block;
+  margin: 20px auto;
 }
 
 .aboutContainer h2 {

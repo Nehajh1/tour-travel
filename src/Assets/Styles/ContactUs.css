@@ -1,0 +1,46 @@
+.contactContainer {
+  padding: 60px 80px;
+}
+
+.contactContainer h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contactContent {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Place Image */
+.contactImage {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Details box */
+.contactDetails {
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.contactDetails p {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: rgb(163, 246, 39);
+}
+
+/* Clickable links */
+.contactDetails a {
+  color: rgb(191, 250, 104);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contactDetails a:hover {
+  text-decoration: underline;
+}
