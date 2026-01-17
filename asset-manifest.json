@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/tour-travel/static/css/main.229e58a6.css",
-    "main.js": "/tour-travel/static/js/main.a0713897.js",
+    "main.css": "/tour-travel/static/css/main.75329d75.css",
+    "main.js": "/tour-travel/static/js/main.0f0c4f5a.js",
     "static/js/453.a97973f4.chunk.js": "/tour-travel/static/js/453.a97973f4.chunk.js",
+    "static/media/kashmirImage.jpg": "/tour-travel/static/media/kashmirImage.7edfc24a282d0c5198d1.jpg",
+    "static/media/innovation.png": "/tour-travel/static/media/innovation.80fc3d551ab93995a6db.png",
+    "static/media/globalreach.png": "/tour-travel/static/media/globalreach.c90c39eacb5d20492a2f.png",
+    "static/media/travel.png": "/tour-travel/static/media/travel.e514ff31f668dcf70498.png",
+    "static/media/strongteam.png": "/tour-travel/static/media/strongteam.92b52045f5dcb6c3f8ce.png",
     "static/media/time.jpg": "/tour-travel/static/media/time.d3ba3c557063c4636a0f.jpg",
     "static/media/register.jpg": "/tour-travel/static/media/register.f79c8aa99fc5b7372bf3.jpg",
     "static/media/lock.jpg": "/tour-travel/static/media/lock.7486b38e1303accbd29b.jpg",
     "index.html": "/tour-travel/index.html",
-    "main.229e58a6.css.map": "/tour-travel/static/css/main.229e58a6.css.map",
-    "main.a0713897.js.map": "/tour-travel/static/js/main.a0713897.js.map",
+    "main.75329d75.css.map": "/tour-travel/static/css/main.75329d75.css.map",
+    "main.0f0c4f5a.js.map": "/tour-travel/static/js/main.0f0c4f5a.js.map",
     "453.a97973f4.chunk.js.map": "/tour-travel/static/js/453.a97973f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.229e58a6.css",
-    "static/js/main.a0713897.js"
+    "static/css/main.75329d75.css",
+    "static/js/main.0f0c4f5a.js"
   ]
 }
