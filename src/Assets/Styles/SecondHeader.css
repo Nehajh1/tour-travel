@@ -16,14 +16,32 @@
 }
 
 .navLeft li {
+  position: relative;
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
+  padding-top: 8px;
   transition: color 0.3s ease;
+}
+
+/* horizontal line above text */
+.navLeft li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: rgb(211, 255, 146);
+  transition: width 0.3s ease;
 }
 
 .navLeft li:hover {
   color: rgb(211, 255, 146);
+}
+
+.navLeft li:hover::before {
+  width: 100%;
 }
 
 /* Right navigation */
@@ -31,20 +49,46 @@
   display: flex;
   gap: 25px;
 }
-.navAction :hover {
-  color: rgb(211, 255, 146);
-}
 
 .navAction {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 8px;
   color: #ffffff;
   cursor: pointer;
   font-size: 24px;
+  padding-top: 8px;
+  transition: color 0.3s ease;
 }
 
+/* horizontal line above icon + text */
+.navAction::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: rgb(211, 255, 146);
+  transition: width 0.3s ease;
+}
+
+.navAction:hover {
+  color: rgb(211, 255, 146);
+}
+
+.navAction:hover::before {
+  width: 100%;
+}
+
+/* icon inherits hover */
 .navAction img {
   width: 28px;
   height: 28px;
+  transition: filter 0.3s ease;
+}
+
+.navAction:hover img {
+  filter: brightness(0) saturate(100%) invert(88%) sepia(22%) saturate(638%) hue-rotate(32deg);
 }
