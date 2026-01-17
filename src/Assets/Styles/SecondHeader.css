@@ -1,0 +1,50 @@
+.secondHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background-color: #0b3c5d;
+}
+
+/* Left navigation */
+.navLeft {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLeft li {
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navLeft li:hover {
+  color: rgb(211, 255, 146);
+}
+
+/* Right navigation */
+.navRight {
+  display: flex;
+  gap: 25px;
+}
+.navAction :hover {
+  color: rgb(211, 255, 146);
+}
+
+.navAction {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.navAction img {
+  width: 28px;
+  height: 28px;
+}
